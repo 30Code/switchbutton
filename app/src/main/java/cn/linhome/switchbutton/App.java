@@ -1,4 +1,4 @@
-package com.fanwe.switchbutton;
+package cn.linhome.switchbutton;
 
 import android.app.Application;
 

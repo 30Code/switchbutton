@@ -1,12 +1,10 @@
-package com.fanwe.switchbutton;
+package cn.linhome.switchbutton;
 
 import android.os.Bundle;
 import android.support.v4.view.ViewCompat;
 import android.view.ViewGroup;
 
 import com.fanwe.lib.selectmanager.SDSelectManager;
-import com.fanwe.lib.switchbutton.FISwitchButton;
-import com.fanwe.lib.switchbutton.FSwitchButton;
 import com.fanwe.library.activity.SDBaseActivity;
 import com.fanwe.library.adapter.SDSimpleRecyclerAdapter;
 import com.fanwe.library.adapter.viewholder.SDRecyclerViewHolder;
@@ -15,6 +13,9 @@ import com.fanwe.library.view.SDRecyclerView;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import cn.linhome.lib.switchbutton.FISwitchButton;
+import cn.linhome.lib.switchbutton.FSwitchButton;
 
 public class MainActivity extends SDBaseActivity
 {

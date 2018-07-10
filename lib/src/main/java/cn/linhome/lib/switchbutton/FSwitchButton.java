@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.fanwe.lib.switchbutton;
+package cn.linhome.lib.switchbutton;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -26,8 +26,9 @@ import android.view.ViewParent;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
-import com.fanwe.lib.touchhelper.FGestureManager;
-import com.fanwe.lib.touchhelper.FTouchHelper;
+import cn.linhome.lib.touchhelper.FGestureManager;
+import cn.linhome.lib.touchhelper.FTouchHelper;
+
 
 public class FSwitchButton extends FrameLayout implements FISwitchButton
 {

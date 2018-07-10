@@ -4,13 +4,13 @@ apply plugin: 'com.github.dcendents.android-maven'
 group = 'com.github.yangwb1259883028'
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 27
 
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 22
-        versionCode 20180229
-        versionName "1.0.23"
+        versionCode 20180710
+        versionName "1.0.24"
     }
 
     buildTypes {
@@ -23,7 +23,7 @@ android {
 }
 
 dependencies {
-    implementation 'com.github.yangwb1259883028:touchhelper:1.0.24'
+    implementation 'com.github.yangwb1259883028:touchhelper:1.0.25'
 }
 
 // 指定编码
