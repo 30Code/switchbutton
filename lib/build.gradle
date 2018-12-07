@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 
-group = 'com.github.yangwb1259883028'
+group = 'com.github.30Code'
 
 android {
     compileSdkVersion 27
@@ -9,8 +9,8 @@ android {
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 27
-        versionCode 20181121
-        versionName "1.0.25"
+        versionCode 20181207
+        versionName "1.0.26"
     }
 
     buildTypes {
@@ -23,7 +23,7 @@ android {
 }
 
 dependencies {
-    implementation 'com.github.yangwb1259883028:touchhelper:1.0.25'
+    implementation 'com.github.30Code:touch_helper:1.0.26'
 }
 
 // 指定编码
